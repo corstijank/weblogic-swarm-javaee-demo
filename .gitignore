@@ -1,0 +1,7 @@
+*.tar.gz
+**/target
+.vscode
+*.zip
+**/.project
+**/.classpath
+**/.settings/*

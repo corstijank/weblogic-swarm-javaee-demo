@@ -55,7 +55,7 @@ ENV APP_NAME="javaee-demo" \
 
 # Copy files and deploy application in WLST Offline mode
 COPY container-scripts/* /u01/oracle/
-COPY javaee-demo-ear/target/*.ear /u01/oracle
+COPY javaee-demo-ear-1.0-SNAPSHOT.ear /u01/oracle
 RUN wlst /u01/oracle/app-deploy.py
 
 # Define default command to start bash. 
